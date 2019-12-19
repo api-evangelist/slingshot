@@ -1,0 +1,45 @@
+{
+    "name": "Slingshot",
+    "description": "Raven Slingshot\u00ae is a precision ag innovation wirelessly connecting every square inch of your land to a set of intuitive online tools and premier hardware. -- Raven Slingshot\u00ae is a precision ag innovation wirelessly connecting every square inch of your...",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1126-slingshot.jpg",
+    "tags": [
+        "agriculture",
+        "have api",
+        "logistics"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/slingshot\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Slingshot",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1126-slingshot.jpg",
+            "humanURL": "http:\/\/ravenslingshot.com\/products\/slingshot-api\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/slingshot-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "http:\/\/ravenslingshot.com\/products\/slingshot-api\/"
+        },
+        {
+            "type": "Email",
+            "url": "support@ravenslingshot.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/#!\/RavenSlingshot"
+        }
+    ]
+}
