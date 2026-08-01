@@ -1,8 +1,25 @@
 aid: slingshot
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slingshot.png
 name: Slingshot
-description: 'Slingshot is a company surfaced as a portfolio company of electric-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: defi. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Slingshot is a self-custody, multi-chain DeFi application and wallet founded in 2020 and
+  headquartered in San Francisco, letting retail users search, send, receive, and swap tens of thousands
+  of cryptocurrencies at aggregated best prices with 0% swap fees. It is available on Web, iOS, and Android
+  with bridging support across Ethereum Mainnet, Arbitrum, Arbitrum Nova, Base, Optimism, Polygon, BNB
+  Chain, and Canto. Backed by Electric Capital, Slingshot combined centralized-exchange ease with the
+  openness of decentralized exchanges. NOTE: Slingshot announced it is sunsetting, advising users to export
+  their private keys before February 28, 2026; its GitHub organization was archived in January 2026. This
+  profile documents a consumer DeFi product that exposes no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/slingshot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,19 @@ x-backed-by:
 - electric-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: sunsetting
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Defi
+- Cryptocurrency
+- Wallet
+- Trading
+- Web3
+- Blockchain
+- Self-Custody
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://slingshot.finance/
+- type: Support
+  url: https://help.slingshot.finance/
+- type: TermsOfService
+  url: https://slingshot.finance/terms
+- type: GitHubOrganization
+  url: https://github.com/slingshot-finance
+- type: DomainSecurity
+  url: security/slingshot-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
